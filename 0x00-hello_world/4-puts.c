@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc new.c -o new
+gcc $CFILE 
