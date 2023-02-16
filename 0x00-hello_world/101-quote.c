@@ -10,7 +10,7 @@
  * the while loop terminates when the new line charachter is faced.
  */
 
-void this_is_good_one_akx_team(char *alx)
+void this_is_good_one_alx_team(char *alx)
 {
 int i = 0;
 while (alx[i] != '\n')
@@ -27,7 +27,7 @@ i++;
 
 int main(void)
 {
-alx = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+char alx[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 this_is_good_one_alx_team(alx);
 return (0);
 }
