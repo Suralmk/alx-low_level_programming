@@ -27,6 +27,7 @@ i++;
 
 int main(void)
 {
-char *alx = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+alx = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+this_is_good_one_alx_team(alx);
 return (0);
 }
