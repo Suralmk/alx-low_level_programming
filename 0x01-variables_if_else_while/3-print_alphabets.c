@@ -1,20 +1,25 @@
 #include <stdio.h>
 /**
  * main - lists alphabet letters in lower case and in uppercase
+ *
  * Return: Always return 0
  */
 
 int main(void)
 {
-	char alphabet;
-	char upperalphabet;
-	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	char alphabet = 'a';
+
+	char upperalphabet = 'A';
+
+	while (alphabet <= 'z')
 			{
 				putchar(alphabet);
+				alphabet++;
 			}
-		for (upperalphabet = 'A'; upperalphabet <= 'Z' ; upperalphabet++)
+	while (upperalphabet <= 'Z')
 			{
 				putchar(upperalphabet);
+				upperalphabet++
 			}
 		putchar('\n');
 		return (0);
