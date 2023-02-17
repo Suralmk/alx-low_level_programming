@@ -1,15 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - A program to  print the size of types in diffrent computer.
- * Return: 0 (success)
+ * main - prints the size data types in 64 and 32
+ * Return: always return 0
  */
 int main(void)
 {
-long long int a;
-printf("Size of a char: %li byte(s)\n", (long int)sizeof(char));
-printf("Size of an int: %li byte(s)\n", (long int)sizeof(int));
-printf("Size of a long int: %li byte(s)\n", (long int)sizeof(long int));
-printf("Size of a long long int: %li byte(s)\n", (long int)sizeof(a));
-printf("size of a float: %li byte(s)\n", (long int)sizeof(float));
+printf("Size of a char: %d byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(int));
+printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+printf("Size of a float: %d byte(s)\n", sizeof(float));
 return (0);
 }
