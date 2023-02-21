@@ -14,7 +14,7 @@ unsigned long int tsum;
 
 int n;
 
-for (n = 3; n < 10; n++)
+for (n = 3; n < 1024; ++n)
 {
 if (n % 3 == 0)
 {
