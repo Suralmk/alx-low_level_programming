@@ -15,7 +15,7 @@ int last_digit;
 	}
 	else
 	{
-		last_digit = ((-1 * a) % 10);
+		last_digit = -(a % 10);
 	}
 		_putchar(last_digit + '0');
 	return (last_digit);
