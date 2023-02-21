@@ -6,11 +6,13 @@
  */
 void sum(void)
 {
-	int sum3 = 0;
+unsigned long int sum3 = 0;
 
-	int sum5 = 0;
+unsigned long int sum5 = 0;
 
-	int tsum, n;
+unsigned long int tsum;
+
+int n;
 
 for (n = 3; n < 10; n++)
 {
@@ -24,5 +26,5 @@ sum5 += n;
 }
 	}
 tsum = sum3 + sum5;
-printf("%d\n", tsum);
+printf("%lu\n", tsum);
 }
