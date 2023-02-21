@@ -10,17 +10,17 @@ unsigned long int sum3 = 0;
 
 unsigned long int sum5 = 0;
 
-unsigned long int tsum;
+unsigned long int tsum = 0;
 
 int n;
 
 for (n = 3; n < 1024; ++n)
 {
-if (n % 3 == 0)
+if ((n % 3) == 0)
 {
 sum3 += n;
 }
-if (n % 5 == 0)
+if ((n % 5) == 0)
 {
 sum5 += n;
 }
