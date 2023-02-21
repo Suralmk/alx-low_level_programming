@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * print_times_table - printing times of any n size table
  * @n: size of the table
@@ -16,30 +16,30 @@ int x, y, z;
 			z = x * y;
 			if (z > 99)
 			{
-				putchar(z / 100 + '0');
-				putchar((z / 10 % 10) + '0');
-				putchar(z % 10 + '0');
+				_putchar(z / 100 + '0');
+				_putchar((z / 10 % 10) + '0');
+				_putchar(z % 10 + '0');
 			}
 			else if (z > 9)
 			{
-				putchar(' ');
-				putchar(z / 10 + '0');
-				putchar(z % 10 + '0');
+				_putchar(' ');
+				_putchar(z / 10 + '0');
+				_putchar(z % 10 + '0');
 			}
 			else if (y != 0)
 			{
-				putchar(' ');
-				putchar(' ');
-				putchar(z + '0');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(z + '0');
 			}
 			else
-				putchar(z + '0');
+				_putchar(z + '0');
 			if (y != n)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
