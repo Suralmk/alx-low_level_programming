@@ -28,3 +28,8 @@ sum5 += n;
 tsum = sum3 + sum5;
 printf("%lu\n", tsum);
 }
+int main(void)
+{
+	sum();
+	return 0;
+}
