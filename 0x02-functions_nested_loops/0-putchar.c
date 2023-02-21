@@ -1,21 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - function that prints _putchar
- *
- * Return: always return 0
+ * _putcha - function that prints _putchar
  */
 void _putcha(void)
 {
-        int i;
+	int i;
 
-        char c[] = "_putchar";
+	char c[] = "_putchar";
 
-        for (i = 0; i < 8; i++)
-        {
-                putchar(c[i] + 0);
-        }
+	for (i = 0; i < 8; i++)
+	{
+		putchar(c[i] + 0);
+	}
 }
+/**
+ * main - entry point
+ * Return: always return 0
+ */
 int main(void)
 {
 	_putcha();
