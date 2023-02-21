@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * sum - compute the sum of multiples of 3 and 5
  * below 1024*
