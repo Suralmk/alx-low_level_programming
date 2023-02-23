@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _isupper - function return  uppercase, else return 0
  *
  * @c: parameter of the function
