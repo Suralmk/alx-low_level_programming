@@ -11,4 +11,4 @@ int mul(int a, int b)
 
 	z = a * b;
 	return (z);
-}	
+}
