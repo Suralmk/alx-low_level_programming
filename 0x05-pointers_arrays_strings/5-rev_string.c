@@ -19,7 +19,6 @@ char tmp;
 	}
 
 	len1 = len - 1;
-	
 	i = 0;
 	while (i < len / 2)
 	{
