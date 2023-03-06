@@ -22,7 +22,7 @@ void print_diagsums(int *a, int size)
 	}
 	printf("%d, ", s);
 
-	m = 0;
+	s = 0;
 	i = 0;
 	while (i < sizer)
 	{
