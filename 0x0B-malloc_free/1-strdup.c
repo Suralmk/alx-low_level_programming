@@ -18,13 +18,13 @@ char *_strdup(char *str)
 		;
 
 	newspace = (char *)malloc(i * sizeof(char) + 1);
-	
+
 	if (newspace == NULL)
 	{
 		return (NULL);
 	}
 
-	for (n = 0;n < i; n++)
+	for (n = 0; n < i; n++)
 	{
 		newspace[n] = str[n];
 	}
