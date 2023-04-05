@@ -11,7 +11,7 @@ size_t print_listint_safe(const listint_t *head)
 	size_t number;
 	long int x;
 
-    number = 0;
+number = 0;
 
 	while (head)
 	{
