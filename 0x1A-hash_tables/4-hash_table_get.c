@@ -30,6 +30,6 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	key_node = ht->array[idx];
 	for ( ; key_node && strcmp(key_node->key, key) != 0; )
 		key_node = key_node->next;
-	
+
 	return ((key_node == NULL) ? NULL : key_node->value);
 }
