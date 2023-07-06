@@ -1,5 +1,10 @@
 #include "hash_tables.h"
 /**
+ * Author: Surafel Melaku
+ * File 0-hash_table_create.c
+ */
+
+/**
  * hash_table_create - Function that create a hash table
  * @size: The size of the array.
  *
@@ -14,7 +19,7 @@ unsigned long int idx = 0;
 
 table = malloc(sizeof(hash_node_t));
 
-if (!table)
+if (table == NULL)
 {
 return (NULL);
 }
